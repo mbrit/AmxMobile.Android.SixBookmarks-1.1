@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.amxMobile.SixBookmarks"
+      android:versionCode="100"
+      android:versionName="1.1.40805.2039">
+      
+    	<uses-sdk android:minSdkVersion="7"></uses-sdk>
+      
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+
+        <activity android:name=".Logon"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".Navigator"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".ConfigureList"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="ConfigureSingleton"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        
+    </application>
+    
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+</manifest> 

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:a="http://schemas.android.com/apk/res/android" a:layout_width="fill_parent" a:layout_height="fill_parent" 
+	a:orientation="vertical">
+	
+	<Button a:text="..." a:id="@+id/buttonNavigate1" a:layout_width="fill_parent" a:layout_height="wrap_content" />
+	<Button a:text="..." a:id="@+id/buttonNavigate2" a:layout_width="fill_parent" a:layout_height="wrap_content" />
+	<Button a:text="..." a:id="@+id/buttonNavigate3" a:layout_width="fill_parent" a:layout_height="wrap_content" />
+	<Button a:text="..." a:id="@+id/buttonNavigate4" a:layout_width="fill_parent" a:layout_height="wrap_content" />
+	<Button a:text="..." a:id="@+id/buttonNavigate5" a:layout_width="fill_parent" a:layout_height="wrap_content" />
+	<Button a:text="..." a:id="@+id/buttonNavigate6" a:layout_width="fill_parent" a:layout_height="wrap_content" />
+
+	<Button a:text="Configure" a:id="@+id/buttonConfigure" a:layout_width="fill_parent" a:layout_height="wrap_content" />
+	<Button a:text="Logoff" a:id="@+id/buttonLogoff" a:layout_width="fill_parent" a:layout_height="wrap_content" />
+	<Button a:text="About" a:id="@+id/buttonAbout" a:layout_width="fill_parent" a:layout_height="wrap_content" />
+   
+ </LinearLayout>

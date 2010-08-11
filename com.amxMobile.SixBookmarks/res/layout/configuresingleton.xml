@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:a="http://schemas.android.com/apk/res/android" a:layout_width="fill_parent" a:layout_height="fill_parent" 
+	a:orientation="vertical">
+	
+	<TextView a:text="" a:id="@+id/labelCaption" a:layout_width="fill_parent" a:layout_height="wrap_content" /> 
+	<TextView a:text="Name:" a:layout_width="wrap_content" a:layout_height="wrap_content" /> 
+	<EditText a:id="@+id/textName" a:singleLine="true" a:layout_width="fill_parent" a:layout_height="wrap_content" /> 
+	<TextView a:text="URL:" a:layout_width="wrap_content" a:layout_height="wrap_content" /> 
+	<EditText a:id="@+id/textUrl" a:singleLine="true" a:layout_width="fill_parent" a:layout_height="wrap_content" />
+   
+	<Button a:text="Save Changes" a:id="@+id/buttonSave" a:layout_width="fill_parent" a:layout_height="wrap_content" />
+   
+ </LinearLayout>
